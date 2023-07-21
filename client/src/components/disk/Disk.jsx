@@ -17,7 +17,7 @@ const Disk = () => {
 
     useEffect(() => {
         dispatch(getFiles(currentDir, sort))
-    }, [currentDir, sort])
+    }, [dispatch, currentDir, sort])
 
     function showPopupHandler() {
         dispatch(setPopupDisplay('flex'))
