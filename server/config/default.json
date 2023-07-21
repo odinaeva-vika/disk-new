@@ -1,0 +1,7 @@
+{
+  "serverPort" : 5000,
+  "dbUrl": "mongodb+srv://odinaevaviktoria:nNR31paAn5LImJ1Z@test.xsjed06.mongodb.net/cloud?retryWrites=true&w=majority",
+  "secretKey": "secket-key",
+  "filePath": "D:\\GO\\disk\\server\\files",
+  "staticPath": "D:\\GO\\disk\\server\\static"
+}

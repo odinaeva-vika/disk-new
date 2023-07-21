@@ -1,0 +1,35 @@
+.authorization {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  align-self: center;
+  margin-top: 100px;
+  -webkit-box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.authorization__header {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.authorization input {
+  margin: 10px 20px;
+}
+
+.authorization__btn {
+  border: none;
+  background-color: #1b73e9;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}

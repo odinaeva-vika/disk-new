@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.navbar__header {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar__login {
+  margin-left: auto;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar__login a{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar__registration a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar__logo{
+  width: 40px;
+  height: 40px;
+}
+
+.navbar__search {
+  width: 200px;
+  margin-left: 30px;
+}
+
+.navbar__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+}
