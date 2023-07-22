@@ -148,7 +148,7 @@ class FileController {
             const file = req.files.file
             const user = await User.findById(req.user.id)
             const avatarName = Uuid.v4() + ".jpg"
-            file.mv(config.get('staticPath') + "\\" + avatarName)
+            file.mv(config.get('staticPath') + "/" + avatarName)
             user.avatar = avatarName
             await user.save()
             return res.json(user)
